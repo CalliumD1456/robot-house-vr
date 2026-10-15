@@ -1,0 +1,10 @@
+# ninja log v5
+1	1040	1792096790791762176	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4d8b3fed0f952baf
+1	1108	1792096790866764851	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b0e4f84b3c54c1f8
+0	1132	1792096790888954117	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f7322829aca10737
+2	1135	1792096790891488138	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2e10081ae5bfef23
+1	1152	1792096790907062563	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4868feb5668732dc
+4	1319	1792096791075601964	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	281f57ed9aefed04
+1	1443	1792096791201804775	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b8d3961c5a679b36
+0	1576	1792096791334299682	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	c7cfa76057875b2c
+1576	1599	1792096791366782683	/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1b114nhd/obj/arm64-v8a/libgame.so	b2b0b30aaffb4ed7
