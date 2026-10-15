@@ -2,6 +2,8 @@
 *.blend
 *.blend1
 *.blend@
+!RobotHouseVRBlender/RobotHouse_GroundFloor.blend
+!RobotHouseVRBlender/RobotHouse_GroundFloor_Baked.blend
 RobotHouseVRBlender/qa/
 
 # Unity
