@@ -1,5 +1,0 @@
-/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/.utmp/RelWithDebInfo/1b114nhd/arm64-v8a/CMakeFiles/edit_cache.dir
-/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/.utmp/RelWithDebInfo/1b114nhd/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/.utmp/RelWithDebInfo/1b114nhd/arm64-v8a/GameActivity/CMakeFiles/game.dir
-/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/.utmp/RelWithDebInfo/1b114nhd/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-/home/cal/Documents/RobotHouseVR/RobotHouseVRUnity/.utmp/RelWithDebInfo/1b114nhd/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
