@@ -1,0 +1,25 @@
+# Blender
+*.blend
+*.blend1
+*.blend@
+RobotHouseVRBlender/qa/
+
+# Unity
+RobotHouseVRUnity/[Ll]ibrary/
+RobotHouseVRUnity/[Tt]emp/
+RobotHouseVRUnity/[Oo]bj/
+RobotHouseVRUnity/[Bb]uild/
+RobotHouseVRUnity/[Bb]uilds/
+RobotHouseVRUnity/[Ll]ogs/
+RobotHouseVRUnity/[Uu]ser[Ss]ettings/
+RobotHouseVRUnity/MemoryCaptures/
+RobotHouseVRUnity/qa_shots/
+RobotHouseVRUnity/.vs/
+RobotHouseVRUnity/.idea/
+*.csproj
+*.sln
+*.apk
+*.aab
+
+# OS
+.DS_Store

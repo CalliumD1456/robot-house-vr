@@ -1,0 +1,980 @@
+{
+ "units": "m",
+ "origin_px": [
+  54.0,
+  479.5
+ ],
+ "scale_m_per_px": 0.0198,
+ "rooms": {
+  "49/2 Hall (living/dining/stairs)": {
+   "polygon_m": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.257,
+     0.0
+    ],
+    [
+     3.257,
+     0.901
+    ],
+    [
+     6.148,
+     0.901
+    ],
+    [
+     6.148,
+     5.752
+    ],
+    [
+     3.485,
+     5.752
+    ],
+    [
+     3.485,
+     5.594
+    ],
+    [
+     3.257,
+     5.594
+    ],
+    [
+     3.257,
+     8.702
+    ],
+    [
+     0.0,
+     8.702
+    ]
+   ],
+   "area_m2": 42.33,
+   "plan_area_m2": 44.86
+  },
+  "49/1 Entry vestibule": {
+   "polygon_m": [
+    [
+     0.297,
+     -0.139
+    ],
+    [
+     3.257,
+     -0.139
+    ],
+    [
+     3.257,
+     -1.802
+    ],
+    [
+     0.653,
+     -1.802
+    ],
+    [
+     0.653,
+     -1.0
+    ],
+    [
+     0.297,
+     -1.0
+    ]
+   ],
+   "area_m2": 4.64,
+   "plan_area_m2": 4.85
+  },
+  "49/3 Kitchen": {
+   "polygon_m": [
+    [
+     3.465,
+     0.782
+    ],
+    [
+     6.069,
+     0.782
+    ],
+    [
+     6.069,
+     -1.802
+    ],
+    [
+     3.465,
+     -1.802
+    ]
+   ],
+   "area_m2": 6.73,
+   "plan_area_m2": 7.03
+  },
+  "49/4 Rear hallway": {
+   "polygon_m": [
+    [
+     6.148,
+     2.584
+    ],
+    [
+     9.504,
+     2.584
+    ],
+    [
+     9.504,
+     1.634
+    ],
+    [
+     6.148,
+     1.634
+    ]
+   ],
+   "area_m2": 3.19,
+   "plan_area_m2": 3.26
+  },
+  "49/5 Room (S-E)": {
+   "polygon_m": [
+    [
+     6.237,
+     1.535
+    ],
+    [
+     9.167,
+     1.535
+    ],
+    [
+     9.167,
+     -1.802
+    ],
+    [
+     6.237,
+     -1.802
+    ]
+   ],
+   "area_m2": 9.78,
+   "plan_area_m2": 10.4
+  },
+  "49/6 Room (E)": {
+   "polygon_m": [
+    [
+     6.237,
+     5.594
+    ],
+    [
+     9.118,
+     5.594
+    ],
+    [
+     9.118,
+     2.703
+    ],
+    [
+     6.237,
+     2.703
+    ]
+   ],
+   "area_m2": 8.33,
+   "plan_area_m2": 8.93
+  },
+  "49/7 Room (N)": {
+   "polygon_m": [
+    [
+     3.485,
+     5.891
+    ],
+    [
+     8.118,
+     5.891
+    ],
+    [
+     8.118,
+     8.702
+    ],
+    [
+     3.485,
+     8.702
+    ]
+   ],
+   "area_m2": 13.03,
+   "plan_area_m2": 13.7
+  },
+  "49/12 Annex (E)": {
+   "polygon_m": [
+    [
+     9.504,
+     2.881
+    ],
+    [
+     12.316,
+     2.881
+    ],
+    [
+     12.316,
+     -1.356
+    ],
+    [
+     9.504,
+     -1.356
+    ]
+   ],
+   "area_m2": 11.91,
+   "plan_area_m2": 12.57
+  }
+ },
+ "walls": {
+  "W01_N_ext_A": {
+   "bbox_m": [
+    -0.228,
+    8.702,
+    6.178,
+    8.92
+   ],
+   "centreline_m": [
+    [
+     -0.228,
+     8.811
+    ],
+    [
+     6.178,
+     8.811
+    ]
+   ],
+   "thickness_m": 0.218,
+   "class": "ext",
+   "note": "north wall above 49/2 + 49/7 (left part)"
+  },
+  "W02_N_ext_B": {
+   "bbox_m": [
+    6.178,
+    8.702,
+    8.316,
+    8.92
+   ],
+   "centreline_m": [
+    [
+     6.178,
+     8.811
+    ],
+    [
+     8.316,
+     8.811
+    ]
+   ],
+   "thickness_m": 0.218,
+   "class": "ext",
+   "note": "north wall over 49/7 right part (jog flattened)"
+  },
+  "W03_W_ext": {
+   "bbox_m": [
+    -0.228,
+    -0.139,
+    0.0,
+    8.702
+   ],
+   "centreline_m": [
+    [
+     -0.114,
+     -0.139
+    ],
+    [
+     -0.114,
+     8.702
+    ]
+   ],
+   "thickness_m": 0.228,
+   "class": "ext",
+   "note": "west wall of 49/2 (full length 8.70)"
+  },
+  "W04_49_7_E": {
+   "bbox_m": [
+    8.118,
+    8.108,
+    8.316,
+    8.702
+   ],
+   "centreline_m": [
+    [
+     8.217,
+     8.108
+    ],
+    [
+     8.217,
+     8.702
+    ]
+   ],
+   "thickness_m": 0.198,
+   "class": "ext",
+   "note": "49/7 east wall - north of French doors"
+  },
+  "W05_49_7_E": {
+   "bbox_m": [
+    8.118,
+    5.752,
+    8.316,
+    6.643
+   ],
+   "centreline_m": [
+    [
+     8.217,
+     5.752
+    ],
+    [
+     8.217,
+     6.643
+    ]
+   ],
+   "thickness_m": 0.198,
+   "class": "ext",
+   "note": "49/7 east wall - south of French doors"
+  },
+  "W06_49_6_N": {
+   "bbox_m": [
+    6.148,
+    5.594,
+    8.316,
+    5.891
+   ],
+   "centreline_m": [
+    [
+     6.148,
+     5.742
+    ],
+    [
+     8.316,
+     5.742
+    ]
+   ],
+   "thickness_m": 0.297,
+   "class": "part",
+   "note": "49/7-49/6 partition (jog flattened, 0.30 m)"
+  },
+  "W07_49_6_N_ext": {
+   "bbox_m": [
+    8.316,
+    5.594,
+    9.346,
+    5.831
+   ],
+   "centreline_m": [
+    [
+     8.316,
+     5.713
+    ],
+    [
+     9.346,
+     5.713
+    ]
+   ],
+   "thickness_m": 0.237,
+   "class": "ext",
+   "note": "49/6 north exterior wall"
+  },
+  "W08_49_6_E": {
+   "bbox_m": [
+    9.118,
+    2.584,
+    9.346,
+    5.594
+   ],
+   "centreline_m": [
+    [
+     9.232,
+     2.584
+    ],
+    [
+     9.232,
+     5.594
+    ]
+   ],
+   "thickness_m": 0.228,
+   "class": "ext",
+   "note": "49/6 east exterior wall (window)"
+  },
+  "W09_49_6_W": {
+   "bbox_m": [
+    6.148,
+    2.584,
+    6.237,
+    5.752
+   ],
+   "centreline_m": [
+    [
+     6.192,
+     2.584
+    ],
+    [
+     6.192,
+     5.752
+    ]
+   ],
+   "thickness_m": 0.089,
+   "class": "thin",
+   "note": "49/2 | 49/6 partition (sketch 3.25 m)"
+  },
+  "W10_hall_N": {
+   "bbox_m": [
+    6.237,
+    2.584,
+    9.504,
+    2.703
+   ],
+   "centreline_m": [
+    [
+     6.237,
+     2.643
+    ],
+    [
+     9.504,
+     2.643
+    ]
+   ],
+   "thickness_m": 0.119,
+   "class": "part",
+   "note": "rear hallway north wall (sketch 3.20 m)"
+  },
+  "W11_hall_S_jamb": {
+   "bbox_m": [
+    6.237,
+    1.535,
+    6.395,
+    1.634
+   ],
+   "centreline_m": [
+    [
+     6.237,
+     1.584
+    ],
+    [
+     6.395,
+     1.584
+    ]
+   ],
+   "thickness_m": 0.099,
+   "class": "part",
+   "note": "49/5 door jamb"
+  },
+  "W12_hall_S": {
+   "bbox_m": [
+    7.385,
+    1.535,
+    9.375,
+    1.634
+   ],
+   "centreline_m": [
+    [
+     7.385,
+     1.584
+    ],
+    [
+     9.375,
+     1.584
+    ]
+   ],
+   "thickness_m": 0.099,
+   "class": "part",
+   "note": "rear hallway south wall (sketch 2.05 m)"
+  },
+  "W13_pier": {
+   "bbox_m": [
+    6.148,
+    0.901,
+    6.237,
+    1.634
+   ],
+   "centreline_m": [
+    [
+     6.192,
+     0.901
+    ],
+    [
+     6.192,
+     1.634
+    ]
+   ],
+   "thickness_m": 0.089,
+   "class": "thin",
+   "note": "pier between hall mouth and kitchen"
+  },
+  "W14_main_49_7": {
+   "bbox_m": [
+    3.257,
+    5.594,
+    3.485,
+    8.702
+   ],
+   "centreline_m": [
+    [
+     3.371,
+     5.594
+    ],
+    [
+     3.371,
+     8.702
+    ]
+   ],
+   "thickness_m": 0.228,
+   "class": "ext",
+   "note": "49/2 | 49/7 structural wall"
+  },
+  "W15_49_7_S": {
+   "bbox_m": [
+    3.485,
+    5.752,
+    6.148,
+    5.891
+   ],
+   "centreline_m": [
+    [
+     3.485,
+     5.822
+    ],
+    [
+     6.148,
+     5.822
+    ]
+   ],
+   "thickness_m": 0.139,
+   "class": "part",
+   "note": "49/7 south wall (door D7 cut)"
+  },
+  "W16_49_5_E": {
+   "bbox_m": [
+    9.167,
+    -2.02,
+    9.375,
+    1.634
+   ],
+   "centreline_m": [
+    [
+     9.271,
+     -2.02
+    ],
+    [
+     9.271,
+     1.634
+    ]
+   ],
+   "thickness_m": 0.208,
+   "class": "ext",
+   "note": "49/5 east exterior wall"
+  },
+  "W17_49_12_W_up": {
+   "bbox_m": [
+    9.346,
+    2.584,
+    9.504,
+    3.02
+   ],
+   "centreline_m": [
+    [
+     9.425,
+     2.584
+    ],
+    [
+     9.425,
+     3.02
+    ]
+   ],
+   "thickness_m": 0.158,
+   "class": "thin",
+   "note": "annex west wall junction"
+  },
+  "W18_49_12_W_lo": {
+   "bbox_m": [
+    9.375,
+    -1.515,
+    9.504,
+    1.634
+   ],
+   "centreline_m": [
+    [
+     9.439,
+     -1.515
+    ],
+    [
+     9.439,
+     1.634
+    ]
+   ],
+   "thickness_m": 0.129,
+   "class": "thin",
+   "note": "annex west wall (lower)"
+  },
+  "W19_49_12_N": {
+   "bbox_m": [
+    9.346,
+    2.881,
+    12.454,
+    3.02
+   ],
+   "centreline_m": [
+    [
+     9.346,
+     2.95
+    ],
+    [
+     12.454,
+     2.95
+    ]
+   ],
+   "thickness_m": 0.139,
+   "class": "thin",
+   "note": "annex north wall"
+  },
+  "W20_49_12_E": {
+   "bbox_m": [
+    12.316,
+    -1.515,
+    12.454,
+    3.02
+   ],
+   "centreline_m": [
+    [
+     12.385,
+     -1.515
+    ],
+    [
+     12.385,
+     3.02
+    ]
+   ],
+   "thickness_m": 0.138,
+   "class": "thin",
+   "note": "annex east wall"
+  },
+  "W21_49_12_S": {
+   "bbox_m": [
+    9.365,
+    -1.515,
+    12.454,
+    -1.356
+   ],
+   "centreline_m": [
+    [
+     9.365,
+     -1.435
+    ],
+    [
+     12.454,
+     -1.435
+    ]
+   ],
+   "thickness_m": 0.159,
+   "class": "thin",
+   "note": "annex south wall"
+  },
+  "W22_S_ext": {
+   "bbox_m": [
+    0.455,
+    -2.02,
+    9.375,
+    -1.802
+   ],
+   "centreline_m": [
+    [
+     0.455,
+     -1.911
+    ],
+    [
+     9.375,
+     -1.911
+    ]
+   ],
+   "thickness_m": 0.218,
+   "class": "ext",
+   "note": "south exterior wall 49/1 + kitchen + 49/5"
+  },
+  "W23_49_1_W_lo": {
+   "bbox_m": [
+    0.455,
+    -2.02,
+    0.653,
+    -1.198
+   ],
+   "centreline_m": [
+    [
+     0.554,
+     -2.02
+    ],
+    [
+     0.554,
+     -1.198
+    ]
+   ],
+   "thickness_m": 0.198,
+   "class": "ext",
+   "note": "49/1 lower west wall"
+  },
+  "W24_49_1_W_jamb": {
+   "bbox_m": [
+    -0.228,
+    -1.198,
+    0.653,
+    -1.0
+   ],
+   "centreline_m": [
+    [
+     -0.228,
+     -1.099
+    ],
+    [
+     0.653,
+     -1.099
+    ]
+   ],
+   "thickness_m": 0.198,
+   "class": "ext",
+   "note": "49/1 entry-door lower jamb / notch"
+  },
+  "W25_49_1_N": {
+   "bbox_m": [
+    -0.228,
+    -0.139,
+    2.336,
+    0.0
+   ],
+   "centreline_m": [
+    [
+     -0.228,
+     -0.07
+    ],
+    [
+     2.336,
+     -0.07
+    ]
+   ],
+   "thickness_m": 0.139,
+   "class": "thin",
+   "note": "49/2 | 49/1 partition (door D1b cut)"
+  },
+  "W26_49_1_kit": {
+   "bbox_m": [
+    3.257,
+    -2.02,
+    3.465,
+    0.901
+   ],
+   "centreline_m": [
+    [
+     3.361,
+     -2.02
+    ],
+    [
+     3.361,
+     0.901
+    ]
+   ],
+   "thickness_m": 0.208,
+   "class": "ext",
+   "note": "49/1 | kitchen wall (pier flattened to kitchen north face)"
+  },
+  "W28_kit_N_A": {
+   "bbox_m": [
+    3.257,
+    0.782,
+    4.356,
+    0.901
+   ],
+   "centreline_m": [
+    [
+     3.257,
+     0.842
+    ],
+    [
+     4.356,
+     0.842
+    ]
+   ],
+   "thickness_m": 0.119,
+   "class": "part",
+   "note": "kitchen north wall, west piece (nib flattened; 1.10 m)"
+  },
+  "W29_kit_N_B": {
+   "bbox_m": [
+    5.128,
+    0.782,
+    6.148,
+    0.901
+   ],
+   "centreline_m": [
+    [
+     5.128,
+     0.842
+    ],
+    [
+     6.148,
+     0.842
+    ]
+   ],
+   "thickness_m": 0.119,
+   "class": "part",
+   "note": "kitchen north wall, east piece (sketch 1.02 m)"
+  },
+  "W30_kit_E": {
+   "bbox_m": [
+    6.069,
+    -2.02,
+    6.237,
+    0.901
+   ],
+   "centreline_m": [
+    [
+     6.153,
+     -2.02
+    ],
+    [
+     6.153,
+     0.901
+    ]
+   ],
+   "thickness_m": 0.168,
+   "class": "thin",
+   "note": "kitchen | 49/5 partition"
+  }
+ },
+ "openings": {
+  "D1_entry_ext": {
+   "bbox_m": [
+    -0.228,
+    -1.0,
+    0.297,
+    -0.139
+   ],
+   "kind": "ext",
+   "note": "front door into 49/1 (thick reveal)",
+   "clear_width_m": 0.861
+  },
+  "D1b_49_1_hall": {
+   "bbox_m": [
+    2.336,
+    -0.139,
+    3.257,
+    0.0
+   ],
+   "kind": "int",
+   "note": "door 49/1 <-> hall",
+   "clear_width_m": 0.921
+  },
+  "A1_kitchen_arch": {
+   "bbox_m": [
+    4.356,
+    0.782,
+    5.128,
+    0.901
+   ],
+   "kind": "int",
+   "note": "kitchen archway",
+   "clear_width_m": 0.772
+  },
+  "A2_hall_mouth": {
+   "bbox_m": [
+    6.148,
+    1.634,
+    6.148,
+    2.584
+   ],
+   "kind": "int",
+   "note": "wide opening hall <-> rear hallway (zero-width plane)",
+   "clear_width_m": 0.95
+  },
+  "D7_49_7": {
+   "bbox_m": [
+    5.227,
+    5.752,
+    5.96,
+    5.891
+   ],
+   "kind": "int",
+   "note": "door hall <-> 49/7",
+   "clear_width_m": 0.733
+  },
+  "D6_49_6": {
+   "bbox_m": [
+    6.593,
+    2.584,
+    7.306,
+    2.703
+   ],
+   "kind": "int",
+   "note": "door hallway <-> 49/6",
+   "clear_width_m": 0.713
+  },
+  "D5_49_5": {
+   "bbox_m": [
+    6.395,
+    1.535,
+    7.385,
+    1.634
+   ],
+   "kind": "int",
+   "note": "door hallway <-> 49/5",
+   "clear_width_m": 0.99
+  },
+  "D12_annex": {
+   "bbox_m": [
+    9.504,
+    1.634,
+    9.504,
+    2.584
+   ],
+   "kind": "int",
+   "note": "glazed door hallway <-> annex (zero-width plane)",
+   "clear_width_m": 0.95
+  },
+  "D49_7_french": {
+   "bbox_m": [
+    8.118,
+    6.643,
+    8.316,
+    8.108
+   ],
+   "kind": "ext",
+   "note": "French doors, 49/7 east wall",
+   "clear_width_m": 1.465
+  }
+ },
+ "windows": {
+  "WIN_hall_west_A": {
+   "wall": "W03_W_ext",
+   "axis": "y",
+   "from_m": 2.366,
+   "to_m": 4.267,
+   "width_m": 1.901,
+   "note": "49/2 west wall window nearest dining (south)"
+  },
+  "WIN_hall_west_B": {
+   "wall": "W03_W_ext",
+   "axis": "y",
+   "from_m": 5.653,
+   "to_m": 7.554,
+   "width_m": 1.901,
+   "note": "49/2 west wall window nearest sofas (north)"
+  },
+  "WIN_49_1_S": {
+   "wall": "W22_S_ext",
+   "axis": "x",
+   "from_m": 1.168,
+   "to_m": 2.653,
+   "width_m": 1.485,
+   "note": "49/1 south window (entry vestibule)"
+  },
+  "WIN_kitchen_S": {
+   "wall": "W22_S_ext",
+   "axis": "x",
+   "from_m": 4.019,
+   "to_m": 5.465,
+   "width_m": 1.445,
+   "note": "kitchen sink window"
+  },
+  "WIN_49_5_S": {
+   "wall": "W22_S_ext",
+   "axis": "x",
+   "from_m": 7.128,
+   "to_m": 8.098,
+   "width_m": 0.97,
+   "note": "49/5 south window"
+  },
+  "WIN_49_6_E": {
+   "wall": "W08_49_6_E",
+   "axis": "y",
+   "from_m": 3.633,
+   "to_m": 4.861,
+   "width_m": 1.228,
+   "note": "49/6 east window"
+  }
+ }
+}
